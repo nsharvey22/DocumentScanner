@@ -1,0 +1,1406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00020CDA79726B4D03D523626C6E4AEF /* ReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18674A9762588C4309CE0602EC1FAA10 /* ReviewViewController.swift */; };
+		065DD35AE2A3CC16118D0E6BC451E33B /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DBBC7D3815B99BBE9893603A572FAC /* ScannerViewController.swift */; };
+		076DF3AD18230D09FBCB6134503A0393 /* DragRotateScaleViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03256CF5320126FA2F6FEF9609222F05 /* DragRotateScaleViewDelegate.swift */; };
+		0F07BB2DD0BF13379E412BF907E4FE29 /* Pods-Gemini Demo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FF7786A3C079BF1E6019AA6DE14BF5 /* Pods-Gemini Demo-dummy.m */; };
+		10B78E1C77F554C26B6E09020555CB8A /* WeScan-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 629B228AA69CB3D33ABEE6CF4755B018 /* WeScan-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		120AA7F0B751860F900A83253E0CBDEA /* Gemini-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3464FBB425CE35FD8BAB4366F3F3DDBE /* Gemini-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		138E2EC435C45BA48024D46FAC79A3D0 /* EPExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D4457F574667A91C8BBA3BD27DEC86 /* EPExtensions.swift */; };
+		139F061D233458C630C0FEE89BDAAEF2 /* CIImage+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49186DB4F769FCB7ABF188935AAD49C /* CIImage+Utils.swift */; };
+		1568DE54CD2759487E7F92528F10324F /* UIImage+Orientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE361265961CE474D2E134ADCDBAD9AD /* UIImage+Orientation.swift */; };
+		18B77D0BBFD7A7B30D1107B7C33B49BE /* CubeAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB334E98510119488709A950AF0392D /* CubeAnimatable.swift */; };
+		1BD73256AAA0129BC2EB58C43A2FF41D /* UIAppearanceAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8DCB84D18E3E708CB7C28D80A44348 /* UIAppearanceAnimatable.swift */; };
+		1D346A68A9134811D58F5F70CFA8BFD5 /* AVCaptureVideoOrientation+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF59389B7C110AEB93EF92E869C2C076 /* AVCaptureVideoOrientation+Utils.swift */; };
+		23AB824CAEB1FDA5725A1AA3BEF8B1BE /* ZoomGestureController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FEDBABCEC90B471BAF60ABC5A0B6D9 /* ZoomGestureController.swift */; };
+		261F70F54820D6F556E1719B473D07BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		2B2D39287DD0B460EDEB9AEE7D23AEC9 /* enhance@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11C44E71DBC88B5D6BB8CFC0067541DC /* enhance@2x.png */; };
+		30FB2AA236EF65F1DD000A9206C52984 /* EPSignatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575A6EA1FBD4F823325FD73A270AE048 /* EPSignatureView.swift */; };
+		37894A2AD34BEB0F3E7077E859BFA621 /* Transformable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2BB6CA6342486000CC4C3FBE2DC11A /* Transformable.swift */; };
+		38147F44E9EBB4C4301B41D57FE886F8 /* EditScanCornerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515760E587ED9EA1605FC0DD2577B95D /* EditScanCornerView.swift */; };
+		3B1016E5CA968730E0BFAB16DAF3B764 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		3B3F507891E2B10BA04821C3B8262738 /* CGRect+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A7098F06E0B1D686A9542C684B1FF0 /* CGRect+Utils.swift */; };
+		3F3047482A244364D2EB5BEA54D3DA21 /* ShutterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90701F72600B7CFB1599DA5A7ACB74C2 /* ShutterButton.swift */; };
+		40F5225951E513F7618743C83927669F /* GeminiAnimationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5E9CA1421A9B4845D2D9F03B9695F5 /* GeminiAnimationModel.swift */; };
+		427EA589B1206FD066B5CE6A696243A7 /* EasingFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DE4633B5D0B5DFB2B068DDE44CED1C /* EasingFunction.swift */; };
+		44A43226763B1943FC14D069FB8E0420 /* QuadrilateralView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E596D37C70276420AD6087D3E255ECA /* QuadrilateralView.swift */; };
+		48D05DD906B9EFB1CC9C0C3A75742322 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E854B87CA6C8CBBF0EF771E3B4A8D12 /* Error.swift */; };
+		491BAEF2DFE12A8D172A02E3D63F9DE2 /* Gemini-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2959DF8AF4AD71074AC67F7C82AD6EB /* Gemini-dummy.m */; };
+		4A4223AC1AC27DA70780AEEC07FE6E8B /* CaptureSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6863DA5D3EE8D905D8CA475EEE86EE0B /* CaptureSessionManager.swift */; };
+		4C78DA26710EC30382FF9F23D16E687A /* CustomAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E990F61AA46FC8E8D17F595D6C10B5 /* CustomAnimatable.swift */; };
+		5A1EBE17C1E294D85092D68EAE69400E /* enhance@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63488412B38BD2BD8C032D9A2DD17920 /* enhance@3x.png */; };
+		5D7907F406F21ABD84265ADCBD2332C3 /* flash.png in Resources */ = {isa = PBXBuildFile; fileRef = 1095B1BB31A7F282ABD1918D5752663B /* flash.png */; };
+		62CF183E87E85C93385D45C759D57D63 /* CaptureSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11A5C5B40D81DBE5C7853D28AF8A757 /* CaptureSession.swift */; };
+		64716D34C733C8D92B405220F5B8DDE0 /* CGPoint+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9505008728F891552DD4C5EB5F82DC6 /* CGPoint+Utils.swift */; };
+		6FDFBA268730B4094C8FCB94FE4D2EB0 /* VisionRectangleDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99238863D0B7D9064756EB8777D49412 /* VisionRectangleDetector.swift */; };
+		703D21E886AF0113AC96ED76D65B48A8 /* DragRotateScaleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE976989091050B5C3359BA697BD15F3 /* DragRotateScaleView.swift */; };
+		704D9616CDFB1B660ADDD8B4278901F0 /* CircleRotateAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCCFBC4F2E2204DE564A18A3E7CA8E8 /* CircleRotateAnimatable.swift */; };
+		73250BDF2DAFDD7712F19965921BC486 /* PitchRotationAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A569619CA0496CA13F590EF275B253 /* PitchRotationAnimatable.swift */; };
+		75FD0F45441660C8C85ED7F4FE8A9264 /* YawRotationAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BD5DA1F836034B8B0DC4FFEF084345 /* YawRotationAnimatable.swift */; };
+		8E5EEECB11BC4C1E41C12AC18E52D188 /* EPSignatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF9C0BA91BAB475AC68AF9A774915B9 /* EPSignatureViewController.swift */; };
+		8F090176F68F7C7572BF4F5816E8FBE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		97DCDD59643CF86536303E4BA40E1182 /* EPSignature-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF67F0305DA759F6924C2CED8369A3B4 /* EPSignature-dummy.m */; };
+		9B70829D7120C51B2EEC9292F5907504 /* ScaleAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4860E2CCB7D39FFBB2BAD6B6DB11F28E /* ScaleAnimatable.swift */; };
+		9CF20D98D5DF10C0C6FDB2C895117989 /* ImageScannerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6079CE18D9454F85F77AB00FE6FE4583 /* ImageScannerController.swift */; };
+		9DCC68E0ADCB4B74A307E15320BF1CE5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 828F354169A88583B562397912581383 /* Localizable.strings */; };
+		9E60E741C05568CF95F6324128592C2E /* WeScan-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A7C5FBDDAD2EB014BA9C162D7A986D /* WeScan-dummy.m */; };
+		9F931C84050CE7426C03BECCF85D5ACF /* CaptureSession+Orientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE0A3B3FEB545494F7FA6B7A6112E29 /* CaptureSession+Orientation.swift */; };
+		A2712E41FB38B3A06F030B17535734DA /* flashUnavailable@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B2B0F278A30F3F0298547AF9F6AD90EA /* flashUnavailable@2x.png */; };
+		A320A37DCC35BEBA6AC245886AEE33C5 /* EPSignature-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B37E19B80DD16EC6B9A6D362A3E93DDE /* EPSignature-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA162B6C8D88DF46B56F3ED940080695 /* EditScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C7A8B166B94472C86AD8A9552C20BE /* EditScanViewController.swift */; };
+		AB86C8FB8F6E966E96392CB629182213 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA04D5D3E3568A2C4EDB0FD6358C966 /* UIViewExtension.swift */; };
+		ACA46D0B058F56093DFC89D274F3362A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		AD838F75C02F6C16D1887A7AA541274A /* enhance.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AA3E1FDDDF2EEC7AA1157578B4A34EF /* enhance.png */; };
+		AF3B34839448B5A14201B0EDCACDCBB4 /* Quadrilateral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F6DBFF45363A84AF02EC9ED862AF25 /* Quadrilateral.swift */; };
+		B29A6946979171F7E21C2A25BE23DB2F /* DragRotateScaleView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 57C3DE35F8380A4006634A5B7C1B1A44 /* DragRotateScaleView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B61ACAC22456F157C15038F3A1B5E371 /* CIRectangleDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87905E3ED9A777EDA981E1770B39276 /* CIRectangleDetector.swift */; };
+		B9E8D7740EAB748EC6C5A5886F58573C /* Pods-Gemini Demo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ABD9E48A315CAF4E9DAF18E6C4D1191 /* Pods-Gemini Demo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BACDF752C560E36C0ADE5974A93DF0F3 /* RollRotationAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A25B4429280ACDD796B1EF32C6E1D8 /* RollRotationAnimatable.swift */; };
+		BB8D43CCF6B5CE6D5636F6996D12B0E0 /* CGAffineTransform+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29828F1F453F202EC67597B5DAD0B97D /* CGAffineTransform+Utils.swift */; };
+		BCC2C8DD932781A952D8AE53D61D18F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		BF8497F96BA43599A84F9070DAA213FB /* GeminiCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2024BC5D66B5F5714F4E72FC190B855 /* GeminiCell.swift */; };
+		C1FBD78768AAFEB2C46F88E042BF5955 /* RectangleFeaturesFunnel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D8C99E3638E92DB2439FF1C6ABB1E2 /* RectangleFeaturesFunnel.swift */; };
+		D1CCB185721013A37421C244B5E8225F /* EasingAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62602BF10A9C9A3A9C4BA4D1B3A9DADA /* EasingAnimatable.swift */; };
+		E0AC436F3BBE79C29FD4E3701DE193D9 /* flash@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF65C7F084481569B44A36323551A67B /* flash@2x.png */; };
+		E68ECAA9D876899438071A24A0F2FB2B /* flashUnavailable.png in Resources */ = {isa = PBXBuildFile; fileRef = B037240E92903F42A18F24A4F2E1F49B /* flashUnavailable.png */; };
+		E989B3F27F3909E312CA1FF006AD6EC9 /* EPSignatureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DC12237925FA79F7CB19CE04B08E426 /* EPSignatureViewController.xib */; };
+		EA50B817B468863CAFAFDCEA21536415 /* DragRotateScaleView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38477C113C942ACB0C26A2D340F664D7 /* DragRotateScaleView-dummy.m */; };
+		F3D78A87B4C35A081B933927B5AAC357 /* flashUnavailable@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA0F421093D2BF63A85F2FD98B0E0811 /* flashUnavailable@3x.png */; };
+		FA7785EF43C6C2C1AEF4494AC27E3A56 /* UIImage+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4957EC5990C5FA27D19CC1EBD7C2FC /* UIImage+Utils.swift */; };
+		FBF58226D25F0166D576E5DAFCD31351 /* GeminiCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A54ECC66F7D993C78990481FB3265C /* GeminiCollectionView.swift */; };
+		FC88FEC068A6F50A648D4E8C9E500DBE /* Array+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790EA7E10685C113E026E7E31163A710 /* Array+Utils.swift */; };
+		FD03191BB041E923DF8B9001997028F5 /* flash@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E9A1540368C415297B30432BBA2E437 /* flash@3x.png */; };
+		FE4285F61E294CD73D4B16B960F0F08F /* WeScan.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B1E8B73D1FF4FC1AD72B2E0AF9C6B3E /* WeScan.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0E7765C726B3424A5B54E8EF3B6E21B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2A2F4D8538484052C3AC7EEB88299BB;
+			remoteInfo = EPSignature;
+		};
+		6AC91E6D322BD0B906F00DC9C9045056 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A858C5843CB1A51B11323545444AA1D;
+			remoteInfo = WeScan;
+		};
+		8B9A8B3FD95FDDD5E1D0DBC6AB5B2F7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E8CF3AAD78018929D438EEC4605539F;
+			remoteInfo = Gemini;
+		};
+		B1B682501977A5F47E2F0EAC4110C28E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F48B18565194E211C63DF4AB7DEAA03;
+			remoteInfo = DragRotateScaleView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03256CF5320126FA2F6FEF9609222F05 /* DragRotateScaleViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DragRotateScaleViewDelegate.swift; path = DragRotateScaleView/Classes/DragRotateScaleViewDelegate.swift; sourceTree = "<group>"; };
+		05D589A8946D054059200778D6A51ECF /* EPSignature.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EPSignature.xcconfig; sourceTree = "<group>"; };
+		0ABD9E48A315CAF4E9DAF18E6C4D1191 /* Pods-Gemini Demo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Gemini Demo-umbrella.h"; sourceTree = "<group>"; };
+		0E9A1540368C415297B30432BBA2E437 /* flash@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "flash@3x.png"; path = "WeScan/Assets/flash@3x.png"; sourceTree = "<group>"; };
+		1095B1BB31A7F282ABD1918D5752663B /* flash.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = flash.png; path = WeScan/Assets/flash.png; sourceTree = "<group>"; };
+		10D4457F574667A91C8BBA3BD27DEC86 /* EPExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EPExtensions.swift; path = Pod/Classes/EPExtensions.swift; sourceTree = "<group>"; };
+		11C44E71DBC88B5D6BB8CFC0067541DC /* enhance@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "enhance@2x.png"; path = "WeScan/Assets/enhance@2x.png"; sourceTree = "<group>"; };
+		15180B36B527D79BE79FDA7DD9C03CE9 /* EPSignature.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EPSignature.framework; path = EPSignature.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18674A9762588C4309CE0602EC1FAA10 /* ReviewViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReviewViewController.swift; path = WeScan/Review/ReviewViewController.swift; sourceTree = "<group>"; };
+		1A4957EC5990C5FA27D19CC1EBD7C2FC /* UIImage+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+Utils.swift"; path = "WeScan/Extensions/UIImage+Utils.swift"; sourceTree = "<group>"; };
+		1AA3E1FDDDF2EEC7AA1157578B4A34EF /* enhance.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = enhance.png; path = WeScan/Assets/enhance.png; sourceTree = "<group>"; };
+		1B2BB6CA6342486000CC4C3FBE2DC11A /* Transformable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Transformable.swift; path = WeScan/Protocols/Transformable.swift; sourceTree = "<group>"; };
+		1C75A87ADCC73700EBC89862C8D0ACB7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		213DA6E51D1CF486E083BC05AB081C27 /* Gemini-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Gemini-prefix.pch"; sourceTree = "<group>"; };
+		225491EFBB7A2EC4E385D7696768A146 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		22AF67103B58E97F79FA416636C03473 /* DragRotateScaleView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DragRotateScaleView-prefix.pch"; sourceTree = "<group>"; };
+		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		25014D358124E7BF223B798A3D4AEAF4 /* Gemini.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Gemini.modulemap; sourceTree = "<group>"; };
+		27C7A8B166B94472C86AD8A9552C20BE /* EditScanViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EditScanViewController.swift; path = WeScan/Edit/EditScanViewController.swift; sourceTree = "<group>"; };
+		28332A6F80692237944563470DA6F3CD /* Gemini.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Gemini.framework; path = Gemini.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29828F1F453F202EC67597B5DAD0B97D /* CGAffineTransform+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGAffineTransform+Utils.swift"; path = "WeScan/Extensions/CGAffineTransform+Utils.swift"; sourceTree = "<group>"; };
+		2D047D708D8CACDFC5D97E322C5FE137 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = "pt-PT.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		2EA04D5D3E3568A2C4EDB0FD6358C966 /* UIViewExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewExtension.swift; path = Gemini/UIViewExtension.swift; sourceTree = "<group>"; };
+		3464FBB425CE35FD8BAB4366F3F3DDBE /* Gemini-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Gemini-umbrella.h"; sourceTree = "<group>"; };
+		35B101EDFE251B3358BBA86AC0DD495C /* Pods-Gemini Demo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Gemini Demo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		38477C113C942ACB0C26A2D340F664D7 /* DragRotateScaleView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DragRotateScaleView-dummy.m"; sourceTree = "<group>"; };
+		3978639E9272317BE9051D1974327F80 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B1E8B73D1FF4FC1AD72B2E0AF9C6B3E /* WeScan.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WeScan.h; path = WeScan/WeScan.h; sourceTree = "<group>"; };
+		3E854B87CA6C8CBBF0EF771E3B4A8D12 /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = WeScan/Common/Error.swift; sourceTree = "<group>"; };
+		411272FAA463CFD6EDE4D39AC1CCF21B /* WeScan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WeScan.framework; path = WeScan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44A54ECC66F7D993C78990481FB3265C /* GeminiCollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GeminiCollectionView.swift; path = Gemini/GeminiCollectionView.swift; sourceTree = "<group>"; };
+		485BAD8D581E0E2FAAEF4743AF3862FD /* EPSignature-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EPSignature-prefix.pch"; sourceTree = "<group>"; };
+		4860E2CCB7D39FFBB2BAD6B6DB11F28E /* ScaleAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScaleAnimatable.swift; path = Gemini/ScaleAnimatable.swift; sourceTree = "<group>"; };
+		4CE82EA0F1EC0C344FA90A8A7D900F78 /* DragRotateScaleView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DragRotateScaleView.xcconfig; sourceTree = "<group>"; };
+		4F02CDF4645234601340D33ED4939579 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		515760E587ED9EA1605FC0DD2577B95D /* EditScanCornerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EditScanCornerView.swift; path = WeScan/Common/EditScanCornerView.swift; sourceTree = "<group>"; };
+		56DE4633B5D0B5DFB2B068DDE44CED1C /* EasingFunction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EasingFunction.swift; path = Gemini/EasingFunction.swift; sourceTree = "<group>"; };
+		56FEDBABCEC90B471BAF60ABC5A0B6D9 /* ZoomGestureController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZoomGestureController.swift; path = WeScan/Edit/ZoomGestureController.swift; sourceTree = "<group>"; };
+		575A6EA1FBD4F823325FD73A270AE048 /* EPSignatureView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EPSignatureView.swift; path = Pod/Classes/EPSignatureView.swift; sourceTree = "<group>"; };
+		57C3DE35F8380A4006634A5B7C1B1A44 /* DragRotateScaleView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DragRotateScaleView-umbrella.h"; sourceTree = "<group>"; };
+		58F7B90AB94E8EF7E709B844B70ACBEE /* Pods-Gemini Demo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Gemini Demo-acknowledgements.plist"; sourceTree = "<group>"; };
+		5DC12237925FA79F7CB19CE04B08E426 /* EPSignatureViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = EPSignatureViewController.xib; path = Pod/Classes/EPSignatureViewController.xib; sourceTree = "<group>"; };
+		5E596D37C70276420AD6087D3E255ECA /* QuadrilateralView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuadrilateralView.swift; path = WeScan/Common/QuadrilateralView.swift; sourceTree = "<group>"; };
+		6079CE18D9454F85F77AB00FE6FE4583 /* ImageScannerController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageScannerController.swift; path = WeScan/ImageScannerController.swift; sourceTree = "<group>"; };
+		62602BF10A9C9A3A9C4BA4D1B3A9DADA /* EasingAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EasingAnimatable.swift; path = Gemini/EasingAnimatable.swift; sourceTree = "<group>"; };
+		629B228AA69CB3D33ABEE6CF4755B018 /* WeScan-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WeScan-umbrella.h"; sourceTree = "<group>"; };
+		63488412B38BD2BD8C032D9A2DD17920 /* enhance@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "enhance@3x.png"; path = "WeScan/Assets/enhance@3x.png"; sourceTree = "<group>"; };
+		651A4955B01C63F2B97820A5A0C54BCF /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		6863DA5D3EE8D905D8CA475EEE86EE0B /* CaptureSessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CaptureSessionManager.swift; path = WeScan/Scan/CaptureSessionManager.swift; sourceTree = "<group>"; };
+		68DA2843B926E96470035DAF779BFA1C /* DragRotateScaleView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DragRotateScaleView.framework; path = DragRotateScaleView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		751BA123C36E91EBF90A8E6FFDCA86FE /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		765402260E3709FE54C19F8FD05CD64D /* Pods_Gemini_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Gemini_Demo.framework; path = "Pods-Gemini Demo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77A7098F06E0B1D686A9542C684B1FF0 /* CGRect+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGRect+Utils.swift"; path = "WeScan/Extensions/CGRect+Utils.swift"; sourceTree = "<group>"; };
+		78C748BF2394EF377D1FAC868E281542 /* Pods-Gemini Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Gemini Demo.release.xcconfig"; sourceTree = "<group>"; };
+		790EA7E10685C113E026E7E31163A710 /* Array+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+Utils.swift"; path = "WeScan/Extensions/Array+Utils.swift"; sourceTree = "<group>"; };
+		83F6DBFF45363A84AF02EC9ED862AF25 /* Quadrilateral.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Quadrilateral.swift; path = WeScan/Common/Quadrilateral.swift; sourceTree = "<group>"; };
+		87DBBC7D3815B99BBE9893603A572FAC /* ScannerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScannerViewController.swift; path = WeScan/Scan/ScannerViewController.swift; sourceTree = "<group>"; };
+		89A25B4429280ACDD796B1EF32C6E1D8 /* RollRotationAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RollRotationAnimatable.swift; path = Gemini/RollRotationAnimatable.swift; sourceTree = "<group>"; };
+		89CF5C1886693B72BBF3A74310FF1576 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90131DAED8EF3D858E1F06846B2E80CC /* Pods-Gemini Demo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Gemini Demo-frameworks.sh"; sourceTree = "<group>"; };
+		90701F72600B7CFB1599DA5A7ACB74C2 /* ShutterButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShutterButton.swift; path = WeScan/Scan/ShutterButton.swift; sourceTree = "<group>"; };
+		95FF7786A3C079BF1E6019AA6DE14BF5 /* Pods-Gemini Demo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Gemini Demo-dummy.m"; sourceTree = "<group>"; };
+		99238863D0B7D9064756EB8777D49412 /* VisionRectangleDetector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VisionRectangleDetector.swift; path = WeScan/Common/VisionRectangleDetector.swift; sourceTree = "<group>"; };
+		9FC82DB6E3165365B37875C135909EE0 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A02053C14DE076B2564938D9AE7A0256 /* WeScan.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WeScan.xcconfig; sourceTree = "<group>"; };
+		A3A569619CA0496CA13F590EF275B253 /* PitchRotationAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PitchRotationAnimatable.swift; path = Gemini/PitchRotationAnimatable.swift; sourceTree = "<group>"; };
+		A49186DB4F769FCB7ABF188935AAD49C /* CIImage+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CIImage+Utils.swift"; path = "WeScan/Extensions/CIImage+Utils.swift"; sourceTree = "<group>"; };
+		A87905E3ED9A777EDA981E1770B39276 /* CIRectangleDetector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CIRectangleDetector.swift; path = WeScan/Common/CIRectangleDetector.swift; sourceTree = "<group>"; };
+		A9505008728F891552DD4C5EB5F82DC6 /* CGPoint+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGPoint+Utils.swift"; path = "WeScan/Extensions/CGPoint+Utils.swift"; sourceTree = "<group>"; };
+		AB5E9CA1421A9B4845D2D9F03B9695F5 /* GeminiAnimationModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GeminiAnimationModel.swift; path = Gemini/GeminiAnimationModel.swift; sourceTree = "<group>"; };
+		ACCCFBC4F2E2204DE564A18A3E7CA8E8 /* CircleRotateAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircleRotateAnimatable.swift; path = Gemini/CircleRotateAnimatable.swift; sourceTree = "<group>"; };
+		ADB334E98510119488709A950AF0392D /* CubeAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CubeAnimatable.swift; path = Gemini/CubeAnimatable.swift; sourceTree = "<group>"; };
+		AE361265961CE474D2E134ADCDBAD9AD /* UIImage+Orientation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+Orientation.swift"; path = "WeScan/Extensions/UIImage+Orientation.swift"; sourceTree = "<group>"; };
+		AF59389B7C110AEB93EF92E869C2C076 /* AVCaptureVideoOrientation+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AVCaptureVideoOrientation+Utils.swift"; path = "WeScan/Extensions/AVCaptureVideoOrientation+Utils.swift"; sourceTree = "<group>"; };
+		B037240E92903F42A18F24A4F2E1F49B /* flashUnavailable.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = flashUnavailable.png; path = WeScan/Assets/flashUnavailable.png; sourceTree = "<group>"; };
+		B2959DF8AF4AD71074AC67F7C82AD6EB /* Gemini-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Gemini-dummy.m"; sourceTree = "<group>"; };
+		B2B0F278A30F3F0298547AF9F6AD90EA /* flashUnavailable@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "flashUnavailable@2x.png"; path = "WeScan/Assets/flashUnavailable@2x.png"; sourceTree = "<group>"; };
+		B37E19B80DD16EC6B9A6D362A3E93DDE /* EPSignature-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EPSignature-umbrella.h"; sourceTree = "<group>"; };
+		B3F280F883A666FA73A0AAEA3E85EC20 /* Pods-Gemini Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Gemini Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		BD8DCB84D18E3E708CB7C28D80A44348 /* UIAppearanceAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIAppearanceAnimatable.swift; path = Gemini/UIAppearanceAnimatable.swift; sourceTree = "<group>"; };
+		BDAEC9EF407581FAD3425E0D7CA0A73F /* WeScan.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WeScan.modulemap; sourceTree = "<group>"; };
+		BEF104B25B65C8F78938E417DEE20C3E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2024BC5D66B5F5714F4E72FC190B855 /* GeminiCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GeminiCell.swift; path = Gemini/GeminiCell.swift; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CC0F8673407FA3E1D3702989A9894D3A /* DragRotateScaleView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DragRotateScaleView.modulemap; sourceTree = "<group>"; };
+		CE976989091050B5C3359BA697BD15F3 /* DragRotateScaleView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DragRotateScaleView.swift; path = DragRotateScaleView/Classes/DragRotateScaleView.swift; sourceTree = "<group>"; };
+		D091A1AF540456F0D7D50CC8CE34549B /* Pods-Gemini Demo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Gemini Demo-resources.sh"; sourceTree = "<group>"; };
+		D0A7C5FBDDAD2EB014BA9C162D7A986D /* WeScan-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WeScan-dummy.m"; sourceTree = "<group>"; };
+		D11A5C5B40D81DBE5C7853D28AF8A757 /* CaptureSession.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CaptureSession.swift; path = WeScan/Session/CaptureSession.swift; sourceTree = "<group>"; };
+		D304BA45A5FC5FE858258CE5BE55DAD8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7FAAA7F5A001071196AA4D3A7FF9E35 /* WeScan-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WeScan-prefix.pch"; sourceTree = "<group>"; };
+		DA0F421093D2BF63A85F2FD98B0E0811 /* flashUnavailable@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "flashUnavailable@3x.png"; path = "WeScan/Assets/flashUnavailable@3x.png"; sourceTree = "<group>"; };
+		DA709701D640E268AA775192A2155803 /* EPSignature.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EPSignature.modulemap; sourceTree = "<group>"; };
+		EAE0A3B3FEB545494F7FA6B7A6112E29 /* CaptureSession+Orientation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CaptureSession+Orientation.swift"; path = "WeScan/Session/CaptureSession+Orientation.swift"; sourceTree = "<group>"; };
+		EBF9C0BA91BAB475AC68AF9A774915B9 /* EPSignatureViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EPSignatureViewController.swift; path = Pod/Classes/EPSignatureViewController.swift; sourceTree = "<group>"; };
+		EDA56F22D95F6BB50FB4FAABAE04CA58 /* Gemini.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Gemini.xcconfig; sourceTree = "<group>"; };
+		EF65C7F084481569B44A36323551A67B /* flash@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "flash@2x.png"; path = "WeScan/Assets/flash@2x.png"; sourceTree = "<group>"; };
+		EF67F0305DA759F6924C2CED8369A3B4 /* EPSignature-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EPSignature-dummy.m"; sourceTree = "<group>"; };
+		F7E990F61AA46FC8E8D17F595D6C10B5 /* CustomAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomAnimatable.swift; path = Gemini/CustomAnimatable.swift; sourceTree = "<group>"; };
+		F8BD5DA1F836034B8B0DC4FFEF084345 /* YawRotationAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YawRotationAnimatable.swift; path = Gemini/YawRotationAnimatable.swift; sourceTree = "<group>"; };
+		F8D8C99E3638E92DB2439FF1C6ABB1E2 /* RectangleFeaturesFunnel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RectangleFeaturesFunnel.swift; path = WeScan/Scan/RectangleFeaturesFunnel.swift; sourceTree = "<group>"; };
+		FDAC8F3FB3663F9DE126F924B42072BD /* Pods-Gemini Demo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Gemini Demo.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39F79A62BD76657B0DB7D7A5AADEFE24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				261F70F54820D6F556E1719B473D07BC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A790D2AB6FBE9D66A1CDCBFEF36710D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F090176F68F7C7572BF4F5816E8FBE4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48E266EE83A563424E4206387FFA7756 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACA46D0B058F56093DFC89D274F3362A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3E2E9EAA560495D97DB50F13D97C1A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCC2C8DD932781A952D8AE53D61D18F0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC422CD0FDCB03F4B02E1487A6178F8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B1016E5CA968730E0BFAB16DAF3B764 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0905DAEC815AC271F9155BCF98EC1160 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5DC12237925FA79F7CB19CE04B08E426 /* EPSignatureViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1EF2123448D0D54B4058C73202AE90FC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC0F8673407FA3E1D3702989A9894D3A /* DragRotateScaleView.modulemap */,
+				4CE82EA0F1EC0C344FA90A8A7D900F78 /* DragRotateScaleView.xcconfig */,
+				38477C113C942ACB0C26A2D340F664D7 /* DragRotateScaleView-dummy.m */,
+				22AF67103B58E97F79FA416636C03473 /* DragRotateScaleView-prefix.pch */,
+				57C3DE35F8380A4006634A5B7C1B1A44 /* DragRotateScaleView-umbrella.h */,
+				1C75A87ADCC73700EBC89862C8D0ACB7 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DragRotateScaleView";
+			sourceTree = "<group>";
+		};
+		405A5F33823A84EAB0371081ADD9E8D7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1AA3E1FDDDF2EEC7AA1157578B4A34EF /* enhance.png */,
+				11C44E71DBC88B5D6BB8CFC0067541DC /* enhance@2x.png */,
+				63488412B38BD2BD8C032D9A2DD17920 /* enhance@3x.png */,
+				1095B1BB31A7F282ABD1918D5752663B /* flash.png */,
+				EF65C7F084481569B44A36323551A67B /* flash@2x.png */,
+				0E9A1540368C415297B30432BBA2E437 /* flash@3x.png */,
+				B037240E92903F42A18F24A4F2E1F49B /* flashUnavailable.png */,
+				B2B0F278A30F3F0298547AF9F6AD90EA /* flashUnavailable@2x.png */,
+				DA0F421093D2BF63A85F2FD98B0E0811 /* flashUnavailable@3x.png */,
+				828F354169A88583B562397912581383 /* Localizable.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4FB99C13C5409F672C780B3A4C6F669A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68DA2843B926E96470035DAF779BFA1C /* DragRotateScaleView.framework */,
+				15180B36B527D79BE79FDA7DD9C03CE9 /* EPSignature.framework */,
+				28332A6F80692237944563470DA6F3CD /* Gemini.framework */,
+				765402260E3709FE54C19F8FD05CD64D /* Pods_Gemini_Demo.framework */,
+				411272FAA463CFD6EDE4D39AC1CCF21B /* WeScan.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57D5072FCAB882EFDBF8AED16813706D /* Gemini */ = {
+			isa = PBXGroup;
+			children = (
+				ACCCFBC4F2E2204DE564A18A3E7CA8E8 /* CircleRotateAnimatable.swift */,
+				ADB334E98510119488709A950AF0392D /* CubeAnimatable.swift */,
+				F7E990F61AA46FC8E8D17F595D6C10B5 /* CustomAnimatable.swift */,
+				62602BF10A9C9A3A9C4BA4D1B3A9DADA /* EasingAnimatable.swift */,
+				56DE4633B5D0B5DFB2B068DDE44CED1C /* EasingFunction.swift */,
+				AB5E9CA1421A9B4845D2D9F03B9695F5 /* GeminiAnimationModel.swift */,
+				C2024BC5D66B5F5714F4E72FC190B855 /* GeminiCell.swift */,
+				44A54ECC66F7D993C78990481FB3265C /* GeminiCollectionView.swift */,
+				A3A569619CA0496CA13F590EF275B253 /* PitchRotationAnimatable.swift */,
+				89A25B4429280ACDD796B1EF32C6E1D8 /* RollRotationAnimatable.swift */,
+				4860E2CCB7D39FFBB2BAD6B6DB11F28E /* ScaleAnimatable.swift */,
+				BD8DCB84D18E3E708CB7C28D80A44348 /* UIAppearanceAnimatable.swift */,
+				2EA04D5D3E3568A2C4EDB0FD6358C966 /* UIViewExtension.swift */,
+				F8BD5DA1F836034B8B0DC4FFEF084345 /* YawRotationAnimatable.swift */,
+				88BB41A7AB8861A35013482F434CCA4D /* Support Files */,
+			);
+			name = Gemini;
+			path = Gemini;
+			sourceTree = "<group>";
+		};
+		6C2D9D6AC8A02D5AE80D80215EC49044 /* WeScan */ = {
+			isa = PBXGroup;
+			children = (
+				790EA7E10685C113E026E7E31163A710 /* Array+Utils.swift */,
+				AF59389B7C110AEB93EF92E869C2C076 /* AVCaptureVideoOrientation+Utils.swift */,
+				D11A5C5B40D81DBE5C7853D28AF8A757 /* CaptureSession.swift */,
+				EAE0A3B3FEB545494F7FA6B7A6112E29 /* CaptureSession+Orientation.swift */,
+				6863DA5D3EE8D905D8CA475EEE86EE0B /* CaptureSessionManager.swift */,
+				29828F1F453F202EC67597B5DAD0B97D /* CGAffineTransform+Utils.swift */,
+				A9505008728F891552DD4C5EB5F82DC6 /* CGPoint+Utils.swift */,
+				77A7098F06E0B1D686A9542C684B1FF0 /* CGRect+Utils.swift */,
+				A49186DB4F769FCB7ABF188935AAD49C /* CIImage+Utils.swift */,
+				A87905E3ED9A777EDA981E1770B39276 /* CIRectangleDetector.swift */,
+				515760E587ED9EA1605FC0DD2577B95D /* EditScanCornerView.swift */,
+				27C7A8B166B94472C86AD8A9552C20BE /* EditScanViewController.swift */,
+				3E854B87CA6C8CBBF0EF771E3B4A8D12 /* Error.swift */,
+				6079CE18D9454F85F77AB00FE6FE4583 /* ImageScannerController.swift */,
+				83F6DBFF45363A84AF02EC9ED862AF25 /* Quadrilateral.swift */,
+				5E596D37C70276420AD6087D3E255ECA /* QuadrilateralView.swift */,
+				F8D8C99E3638E92DB2439FF1C6ABB1E2 /* RectangleFeaturesFunnel.swift */,
+				18674A9762588C4309CE0602EC1FAA10 /* ReviewViewController.swift */,
+				87DBBC7D3815B99BBE9893603A572FAC /* ScannerViewController.swift */,
+				90701F72600B7CFB1599DA5A7ACB74C2 /* ShutterButton.swift */,
+				1B2BB6CA6342486000CC4C3FBE2DC11A /* Transformable.swift */,
+				AE361265961CE474D2E134ADCDBAD9AD /* UIImage+Orientation.swift */,
+				1A4957EC5990C5FA27D19CC1EBD7C2FC /* UIImage+Utils.swift */,
+				99238863D0B7D9064756EB8777D49412 /* VisionRectangleDetector.swift */,
+				3B1E8B73D1FF4FC1AD72B2E0AF9C6B3E /* WeScan.h */,
+				56FEDBABCEC90B471BAF60ABC5A0B6D9 /* ZoomGestureController.swift */,
+				405A5F33823A84EAB0371081ADD9E8D7 /* Resources */,
+				7E6BAD06815AFE2B69126F37B7E301E4 /* Support Files */,
+			);
+			name = WeScan;
+			path = WeScan;
+			sourceTree = "<group>";
+		};
+		7E6BAD06815AFE2B69126F37B7E301E4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D304BA45A5FC5FE858258CE5BE55DAD8 /* Info.plist */,
+				BDAEC9EF407581FAD3425E0D7CA0A73F /* WeScan.modulemap */,
+				A02053C14DE076B2564938D9AE7A0256 /* WeScan.xcconfig */,
+				D0A7C5FBDDAD2EB014BA9C162D7A986D /* WeScan-dummy.m */,
+				D7FAAA7F5A001071196AA4D3A7FF9E35 /* WeScan-prefix.pch */,
+				629B228AA69CB3D33ABEE6CF4755B018 /* WeScan-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WeScan";
+			sourceTree = "<group>";
+		};
+		858978412D3A5B98500BF3FF1AAC5239 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA709701D640E268AA775192A2155803 /* EPSignature.modulemap */,
+				05D589A8946D054059200778D6A51ECF /* EPSignature.xcconfig */,
+				EF67F0305DA759F6924C2CED8369A3B4 /* EPSignature-dummy.m */,
+				485BAD8D581E0E2FAAEF4743AF3862FD /* EPSignature-prefix.pch */,
+				B37E19B80DD16EC6B9A6D362A3E93DDE /* EPSignature-umbrella.h */,
+				89CF5C1886693B72BBF3A74310FF1576 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/EPSignature";
+			sourceTree = "<group>";
+		};
+		88BB41A7AB8861A35013482F434CCA4D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				25014D358124E7BF223B798A3D4AEAF4 /* Gemini.modulemap */,
+				EDA56F22D95F6BB50FB4FAABAE04CA58 /* Gemini.xcconfig */,
+				B2959DF8AF4AD71074AC67F7C82AD6EB /* Gemini-dummy.m */,
+				213DA6E51D1CF486E083BC05AB081C27 /* Gemini-prefix.pch */,
+				3464FBB425CE35FD8BAB4366F3F3DDBE /* Gemini-umbrella.h */,
+				BEF104B25B65C8F78938E417DEE20C3E /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Gemini";
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B096D59CBECE3CC62B0D8C8B70233B79 /* Pods-Gemini Demo */ = {
+			isa = PBXGroup;
+			children = (
+				3978639E9272317BE9051D1974327F80 /* Info.plist */,
+				FDAC8F3FB3663F9DE126F924B42072BD /* Pods-Gemini Demo.modulemap */,
+				35B101EDFE251B3358BBA86AC0DD495C /* Pods-Gemini Demo-acknowledgements.markdown */,
+				58F7B90AB94E8EF7E709B844B70ACBEE /* Pods-Gemini Demo-acknowledgements.plist */,
+				95FF7786A3C079BF1E6019AA6DE14BF5 /* Pods-Gemini Demo-dummy.m */,
+				90131DAED8EF3D858E1F06846B2E80CC /* Pods-Gemini Demo-frameworks.sh */,
+				D091A1AF540456F0D7D50CC8CE34549B /* Pods-Gemini Demo-resources.sh */,
+				0ABD9E48A315CAF4E9DAF18E6C4D1191 /* Pods-Gemini Demo-umbrella.h */,
+				B3F280F883A666FA73A0AAEA3E85EC20 /* Pods-Gemini Demo.debug.xcconfig */,
+				78C748BF2394EF377D1FAC868E281542 /* Pods-Gemini Demo.release.xcconfig */,
+			);
+			name = "Pods-Gemini Demo";
+			path = "Target Support Files/Pods-Gemini Demo";
+			sourceTree = "<group>";
+		};
+		B20A27B86317ED162CB4FDE1B7523615 /* EPSignature */ = {
+			isa = PBXGroup;
+			children = (
+				10D4457F574667A91C8BBA3BD27DEC86 /* EPExtensions.swift */,
+				575A6EA1FBD4F823325FD73A270AE048 /* EPSignatureView.swift */,
+				EBF9C0BA91BAB475AC68AF9A774915B9 /* EPSignatureViewController.swift */,
+				0905DAEC815AC271F9155BCF98EC1160 /* Resources */,
+				858978412D3A5B98500BF3FF1AAC5239 /* Support Files */,
+			);
+			name = EPSignature;
+			path = EPSignature;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				24390EFD555DD124430DFF9724065945 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				D9009287E7ABDB9A9808E26D826C505E /* Pods */,
+				4FB99C13C5409F672C780B3A4C6F669A /* Products */,
+				D012D735D47FBBB3CACB3BAA2515EDDD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D012D735D47FBBB3CACB3BAA2515EDDD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B096D59CBECE3CC62B0D8C8B70233B79 /* Pods-Gemini Demo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9009287E7ABDB9A9808E26D826C505E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD6A65E66DD94A420C6DEE028BCEF448 /* DragRotateScaleView */,
+				B20A27B86317ED162CB4FDE1B7523615 /* EPSignature */,
+				57D5072FCAB882EFDBF8AED16813706D /* Gemini */,
+				6C2D9D6AC8A02D5AE80D80215EC49044 /* WeScan */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FD6A65E66DD94A420C6DEE028BCEF448 /* DragRotateScaleView */ = {
+			isa = PBXGroup;
+			children = (
+				CE976989091050B5C3359BA697BD15F3 /* DragRotateScaleView.swift */,
+				03256CF5320126FA2F6FEF9609222F05 /* DragRotateScaleViewDelegate.swift */,
+				1EF2123448D0D54B4058C73202AE90FC /* Support Files */,
+			);
+			name = DragRotateScaleView;
+			path = DragRotateScaleView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0FD2C312F014035986A47557ED47B4EF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				120AA7F0B751860F900A83253E0CBDEA /* Gemini-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C56638B99247765AEF3D1D9019F26F9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B29A6946979171F7E21C2A25BE23DB2F /* DragRotateScaleView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9532DC4BD313D39EF1B342DB824B8114 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10B78E1C77F554C26B6E09020555CB8A /* WeScan-umbrella.h in Headers */,
+				FE4285F61E294CD73D4B16B960F0F08F /* WeScan.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A197996E292EC5B425A7C3C48A690976 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A320A37DCC35BEBA6AC245886AEE33C5 /* EPSignature-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2F8061278952F6C8E4097EAF8BBFF7E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9E8D7740EAB748EC6C5A5886F58573C /* Pods-Gemini Demo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0F48B18565194E211C63DF4AB7DEAA03 /* DragRotateScaleView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E62AE6B4216B044E9DD267C8BE6F6EF2 /* Build configuration list for PBXNativeTarget "DragRotateScaleView" */;
+			buildPhases = (
+				4C56638B99247765AEF3D1D9019F26F9 /* Headers */,
+				5F43B92C8291D547DF78B9F5DC72EDF2 /* Sources */,
+				EC422CD0FDCB03F4B02E1487A6178F8B /* Frameworks */,
+				A2CD8C13A89DBF7FDC0F08EEDD6A4FF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DragRotateScaleView;
+			productName = DragRotateScaleView;
+			productReference = 68DA2843B926E96470035DAF779BFA1C /* DragRotateScaleView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4A858C5843CB1A51B11323545444AA1D /* WeScan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26E4390EC161B22C560E2AF3401C2E8D /* Build configuration list for PBXNativeTarget "WeScan" */;
+			buildPhases = (
+				9532DC4BD313D39EF1B342DB824B8114 /* Headers */,
+				EF8FEDA0B38CB5EDFB3F04F1CAB15CD1 /* Sources */,
+				48E266EE83A563424E4206387FFA7756 /* Frameworks */,
+				F454B733D8CDF6A4E5EE151C850A5377 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeScan;
+			productName = WeScan;
+			productReference = 411272FAA463CFD6EDE4D39AC1CCF21B /* WeScan.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7E8CF3AAD78018929D438EEC4605539F /* Gemini */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93F97BE090DBB6F0173E18D92038B75A /* Build configuration list for PBXNativeTarget "Gemini" */;
+			buildPhases = (
+				0FD2C312F014035986A47557ED47B4EF /* Headers */,
+				2CF9D704EA9BCBC0B4547C586C10CBF1 /* Sources */,
+				39F79A62BD76657B0DB7D7A5AADEFE24 /* Frameworks */,
+				C0F0D7DB2EB44F68B60F310C977C442A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gemini;
+			productName = Gemini;
+			productReference = 28332A6F80692237944563470DA6F3CD /* Gemini.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C2A2F4D8538484052C3AC7EEB88299BB /* EPSignature */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31A81916E04F0C77827072B38174DD2D /* Build configuration list for PBXNativeTarget "EPSignature" */;
+			buildPhases = (
+				A197996E292EC5B425A7C3C48A690976 /* Headers */,
+				1C85A133C7F0D6E754C5BCC97A7BDC06 /* Sources */,
+				C3E2E9EAA560495D97DB50F13D97C1A7 /* Frameworks */,
+				26CEC6BB87072A169A86A91C22DA80DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EPSignature;
+			productName = EPSignature;
+			productReference = 15180B36B527D79BE79FDA7DD9C03CE9 /* EPSignature.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E9050256F2671C0B04B63FDDA3E55D74 /* Pods-Gemini Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4699C3B016E966ED369CC1833F28422 /* Build configuration list for PBXNativeTarget "Pods-Gemini Demo" */;
+			buildPhases = (
+				B2F8061278952F6C8E4097EAF8BBFF7E /* Headers */,
+				43761C2718A89B89339915E797DB42D7 /* Sources */,
+				3A790D2AB6FBE9D66A1CDCBFEF36710D /* Frameworks */,
+				4F80C13059CB256B3A830846CEA135D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E63D33D47CE416C3D2686E2F25AC500 /* PBXTargetDependency */,
+				BCF3771714EABD9F80C9D02B48D2C9D2 /* PBXTargetDependency */,
+				AA6AD80D0F78B96E901D3A1D8404CC0C /* PBXTargetDependency */,
+				742312FEAF0C5BF4959D5FB8D9BBF6B5 /* PBXTargetDependency */,
+			);
+			name = "Pods-Gemini Demo";
+			productName = "Pods-Gemini Demo";
+			productReference = 765402260E3709FE54C19F8FD05CD64D /* Pods_Gemini_Demo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 4FB99C13C5409F672C780B3A4C6F669A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F48B18565194E211C63DF4AB7DEAA03 /* DragRotateScaleView */,
+				C2A2F4D8538484052C3AC7EEB88299BB /* EPSignature */,
+				7E8CF3AAD78018929D438EEC4605539F /* Gemini */,
+				E9050256F2671C0B04B63FDDA3E55D74 /* Pods-Gemini Demo */,
+				4A858C5843CB1A51B11323545444AA1D /* WeScan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26CEC6BB87072A169A86A91C22DA80DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E989B3F27F3909E312CA1FF006AD6EC9 /* EPSignatureViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F80C13059CB256B3A830846CEA135D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2CD8C13A89DBF7FDC0F08EEDD6A4FF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0F0D7DB2EB44F68B60F310C977C442A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F454B733D8CDF6A4E5EE151C850A5377 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD838F75C02F6C16D1887A7AA541274A /* enhance.png in Resources */,
+				2B2D39287DD0B460EDEB9AEE7D23AEC9 /* enhance@2x.png in Resources */,
+				5A1EBE17C1E294D85092D68EAE69400E /* enhance@3x.png in Resources */,
+				5D7907F406F21ABD84265ADCBD2332C3 /* flash.png in Resources */,
+				E0AC436F3BBE79C29FD4E3701DE193D9 /* flash@2x.png in Resources */,
+				FD03191BB041E923DF8B9001997028F5 /* flash@3x.png in Resources */,
+				E68ECAA9D876899438071A24A0F2FB2B /* flashUnavailable.png in Resources */,
+				A2712E41FB38B3A06F030B17535734DA /* flashUnavailable@2x.png in Resources */,
+				F3D78A87B4C35A081B933927B5AAC357 /* flashUnavailable@3x.png in Resources */,
+				9DCC68E0ADCB4B74A307E15320BF1CE5 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C85A133C7F0D6E754C5BCC97A7BDC06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				138E2EC435C45BA48024D46FAC79A3D0 /* EPExtensions.swift in Sources */,
+				97DCDD59643CF86536303E4BA40E1182 /* EPSignature-dummy.m in Sources */,
+				30FB2AA236EF65F1DD000A9206C52984 /* EPSignatureView.swift in Sources */,
+				8E5EEECB11BC4C1E41C12AC18E52D188 /* EPSignatureViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CF9D704EA9BCBC0B4547C586C10CBF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				704D9616CDFB1B660ADDD8B4278901F0 /* CircleRotateAnimatable.swift in Sources */,
+				18B77D0BBFD7A7B30D1107B7C33B49BE /* CubeAnimatable.swift in Sources */,
+				4C78DA26710EC30382FF9F23D16E687A /* CustomAnimatable.swift in Sources */,
+				D1CCB185721013A37421C244B5E8225F /* EasingAnimatable.swift in Sources */,
+				427EA589B1206FD066B5CE6A696243A7 /* EasingFunction.swift in Sources */,
+				491BAEF2DFE12A8D172A02E3D63F9DE2 /* Gemini-dummy.m in Sources */,
+				40F5225951E513F7618743C83927669F /* GeminiAnimationModel.swift in Sources */,
+				BF8497F96BA43599A84F9070DAA213FB /* GeminiCell.swift in Sources */,
+				FBF58226D25F0166D576E5DAFCD31351 /* GeminiCollectionView.swift in Sources */,
+				73250BDF2DAFDD7712F19965921BC486 /* PitchRotationAnimatable.swift in Sources */,
+				BACDF752C560E36C0ADE5974A93DF0F3 /* RollRotationAnimatable.swift in Sources */,
+				9B70829D7120C51B2EEC9292F5907504 /* ScaleAnimatable.swift in Sources */,
+				1BD73256AAA0129BC2EB58C43A2FF41D /* UIAppearanceAnimatable.swift in Sources */,
+				AB86C8FB8F6E966E96392CB629182213 /* UIViewExtension.swift in Sources */,
+				75FD0F45441660C8C85ED7F4FE8A9264 /* YawRotationAnimatable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43761C2718A89B89339915E797DB42D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F07BB2DD0BF13379E412BF907E4FE29 /* Pods-Gemini Demo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F43B92C8291D547DF78B9F5DC72EDF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA50B817B468863CAFAFDCEA21536415 /* DragRotateScaleView-dummy.m in Sources */,
+				703D21E886AF0113AC96ED76D65B48A8 /* DragRotateScaleView.swift in Sources */,
+				076DF3AD18230D09FBCB6134503A0393 /* DragRotateScaleViewDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8FEDA0B38CB5EDFB3F04F1CAB15CD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC88FEC068A6F50A648D4E8C9E500DBE /* Array+Utils.swift in Sources */,
+				1D346A68A9134811D58F5F70CFA8BFD5 /* AVCaptureVideoOrientation+Utils.swift in Sources */,
+				9F931C84050CE7426C03BECCF85D5ACF /* CaptureSession+Orientation.swift in Sources */,
+				62CF183E87E85C93385D45C759D57D63 /* CaptureSession.swift in Sources */,
+				4A4223AC1AC27DA70780AEEC07FE6E8B /* CaptureSessionManager.swift in Sources */,
+				BB8D43CCF6B5CE6D5636F6996D12B0E0 /* CGAffineTransform+Utils.swift in Sources */,
+				64716D34C733C8D92B405220F5B8DDE0 /* CGPoint+Utils.swift in Sources */,
+				3B3F507891E2B10BA04821C3B8262738 /* CGRect+Utils.swift in Sources */,
+				139F061D233458C630C0FEE89BDAAEF2 /* CIImage+Utils.swift in Sources */,
+				B61ACAC22456F157C15038F3A1B5E371 /* CIRectangleDetector.swift in Sources */,
+				38147F44E9EBB4C4301B41D57FE886F8 /* EditScanCornerView.swift in Sources */,
+				AA162B6C8D88DF46B56F3ED940080695 /* EditScanViewController.swift in Sources */,
+				48D05DD906B9EFB1CC9C0C3A75742322 /* Error.swift in Sources */,
+				9CF20D98D5DF10C0C6FDB2C895117989 /* ImageScannerController.swift in Sources */,
+				AF3B34839448B5A14201B0EDCACDCBB4 /* Quadrilateral.swift in Sources */,
+				44A43226763B1943FC14D069FB8E0420 /* QuadrilateralView.swift in Sources */,
+				C1FBD78768AAFEB2C46F88E042BF5955 /* RectangleFeaturesFunnel.swift in Sources */,
+				00020CDA79726B4D03D523626C6E4AEF /* ReviewViewController.swift in Sources */,
+				065DD35AE2A3CC16118D0E6BC451E33B /* ScannerViewController.swift in Sources */,
+				3F3047482A244364D2EB5BEA54D3DA21 /* ShutterButton.swift in Sources */,
+				37894A2AD34BEB0F3E7077E859BFA621 /* Transformable.swift in Sources */,
+				1568DE54CD2759487E7F92528F10324F /* UIImage+Orientation.swift in Sources */,
+				FA7785EF43C6C2C1AEF4494AC27E3A56 /* UIImage+Utils.swift in Sources */,
+				6FDFBA268730B4094C8FCB94FE4D2EB0 /* VisionRectangleDetector.swift in Sources */,
+				9E60E741C05568CF95F6324128592C2E /* WeScan-dummy.m in Sources */,
+				23AB824CAEB1FDA5725A1AA3BEF8B1BE /* ZoomGestureController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		742312FEAF0C5BF4959D5FB8D9BBF6B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WeScan;
+			target = 4A858C5843CB1A51B11323545444AA1D /* WeScan */;
+			targetProxy = 6AC91E6D322BD0B906F00DC9C9045056 /* PBXContainerItemProxy */;
+		};
+		9E63D33D47CE416C3D2686E2F25AC500 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DragRotateScaleView;
+			target = 0F48B18565194E211C63DF4AB7DEAA03 /* DragRotateScaleView */;
+			targetProxy = B1B682501977A5F47E2F0EAC4110C28E /* PBXContainerItemProxy */;
+		};
+		AA6AD80D0F78B96E901D3A1D8404CC0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Gemini;
+			target = 7E8CF3AAD78018929D438EEC4605539F /* Gemini */;
+			targetProxy = 8B9A8B3FD95FDDD5E1D0DBC6AB5B2F7E /* PBXContainerItemProxy */;
+		};
+		BCF3771714EABD9F80C9D02B48D2C9D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EPSignature;
+			target = C2A2F4D8538484052C3AC7EEB88299BB /* EPSignature */;
+			targetProxy = 0E7765C726B3424A5B54E8EF3B6E21B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		828F354169A88583B562397912581383 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				225491EFBB7A2EC4E385D7696768A146 /* Localizable.strings */,
+				9FC82DB6E3165365B37875C135909EE0 /* Localizable.strings */,
+				751BA123C36E91EBF90A8E6FFDCA86FE /* Localizable.strings */,
+				2D047D708D8CACDFC5D97E322C5FE137 /* Localizable.strings */,
+				4F02CDF4645234601340D33ED4939579 /* Localizable.strings */,
+				651A4955B01C63F2B97820A5A0C54BCF /* Localizable.strings */,
+			);
+			name = Localizable.strings;
+			path = WeScan;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		068A219F9C384FD572D523EEE317D0C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		51571D28DC943A2FB369DC0007A74AE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CE82EA0F1EC0C344FA90A8A7D900F78 /* DragRotateScaleView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DragRotateScaleView/DragRotateScaleView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DragRotateScaleView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DragRotateScaleView/DragRotateScaleView.modulemap";
+				PRODUCT_MODULE_NAME = DragRotateScaleView;
+				PRODUCT_NAME = DragRotateScaleView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		645D80F2929877FE64FFD89D0A6337AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3F280F883A666FA73A0AAEA3E85EC20 /* Pods-Gemini Demo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Gemini Demo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Gemini Demo/Pods-Gemini Demo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7294163C96C0B5BDCC6D4EAD2765B4BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A02053C14DE076B2564938D9AE7A0256 /* WeScan.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WeScan/WeScan-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WeScan/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/WeScan/WeScan.modulemap";
+				PRODUCT_MODULE_NAME = WeScan;
+				PRODUCT_NAME = WeScan;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9C06C9C12568C57D7111F6391042A8BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05D589A8946D054059200778D6A51ECF /* EPSignature.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EPSignature/EPSignature-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EPSignature/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/EPSignature/EPSignature.modulemap";
+				PRODUCT_MODULE_NAME = EPSignature;
+				PRODUCT_NAME = EPSignature;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A740F791092E153DFA91D37C08D5EDBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CE82EA0F1EC0C344FA90A8A7D900F78 /* DragRotateScaleView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DragRotateScaleView/DragRotateScaleView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DragRotateScaleView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DragRotateScaleView/DragRotateScaleView.modulemap";
+				PRODUCT_MODULE_NAME = DragRotateScaleView;
+				PRODUCT_NAME = DragRotateScaleView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D04674B0952DB25CC453CE55FDF0280B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78C748BF2394EF377D1FAC868E281542 /* Pods-Gemini Demo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Gemini Demo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Gemini Demo/Pods-Gemini Demo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DD389AE40E097A62CFE8CA6EDE6AA31B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDA56F22D95F6BB50FB4FAABAE04CA58 /* Gemini.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Gemini/Gemini-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Gemini/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Gemini/Gemini.modulemap";
+				PRODUCT_MODULE_NAME = Gemini;
+				PRODUCT_NAME = Gemini;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E29B0B57C53FF8C9953CE2983686A7F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F1B470DD9E5AE7FF5281E9690936FAFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A02053C14DE076B2564938D9AE7A0256 /* WeScan.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WeScan/WeScan-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WeScan/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/WeScan/WeScan.modulemap";
+				PRODUCT_MODULE_NAME = WeScan;
+				PRODUCT_NAME = WeScan;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F50EC08AAC07FB6E58A39FA3E23AB8A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDA56F22D95F6BB50FB4FAABAE04CA58 /* Gemini.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Gemini/Gemini-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Gemini/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Gemini/Gemini.modulemap";
+				PRODUCT_MODULE_NAME = Gemini;
+				PRODUCT_NAME = Gemini;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F61A4F2DAF2E1D62ACEA17559AB4CDD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05D589A8946D054059200778D6A51ECF /* EPSignature.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EPSignature/EPSignature-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EPSignature/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/EPSignature/EPSignature.modulemap";
+				PRODUCT_MODULE_NAME = EPSignature;
+				PRODUCT_NAME = EPSignature;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26E4390EC161B22C560E2AF3401C2E8D /* Build configuration list for PBXNativeTarget "WeScan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1B470DD9E5AE7FF5281E9690936FAFB /* Debug */,
+				7294163C96C0B5BDCC6D4EAD2765B4BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31A81916E04F0C77827072B38174DD2D /* Build configuration list for PBXNativeTarget "EPSignature" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F61A4F2DAF2E1D62ACEA17559AB4CDD4 /* Debug */,
+				9C06C9C12568C57D7111F6391042A8BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E29B0B57C53FF8C9953CE2983686A7F9 /* Debug */,
+				068A219F9C384FD572D523EEE317D0C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93F97BE090DBB6F0173E18D92038B75A /* Build configuration list for PBXNativeTarget "Gemini" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F50EC08AAC07FB6E58A39FA3E23AB8A0 /* Debug */,
+				DD389AE40E097A62CFE8CA6EDE6AA31B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E62AE6B4216B044E9DD267C8BE6F6EF2 /* Build configuration list for PBXNativeTarget "DragRotateScaleView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51571D28DC943A2FB369DC0007A74AE4 /* Debug */,
+				A740F791092E153DFA91D37C08D5EDBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4699C3B016E966ED369CC1833F28422 /* Build configuration list for PBXNativeTarget "Pods-Gemini Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				645D80F2929877FE64FFD89D0A6337AC /* Debug */,
+				D04674B0952DB25CC453CE55FDF0280B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
